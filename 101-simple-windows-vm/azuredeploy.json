@@ -35,12 +35,6 @@
       ],
       "metadata": {
         "description": "Restricts choices to where premium storage is located in the US."
-      },
-      "sizeOfEachDataDiskInGB": {
-        "type": "string",
-        "metadata": {
-          "description": "Size of each data disk in GB"
-        }
       }
     },
     "windowsOSVersion": {
@@ -53,6 +47,12 @@
       ],
       "metadata": {
         "description": "The Windows version for the VM. This will pick a fully patched image of this given Windows version. Allowed values: 2008-R2-SP1, 2012-Datacenter, 2012-R2-Datacenter."
+      }
+    },
+        "sizeOfEachDataDiskInGB": {
+      "type": "string",
+      "metadata": {
+        "description": "Size of each data disk in GB"
       }
     }
   },
